@@ -18,7 +18,7 @@ const ResumeEnhance = () => {
         formData.append('file', resumeFile);
 
         try {
-            const response = await fetch('http://127.0.0.1:5000/resume_enhance', {
+            const response = await fetch('https://gen-back-gaharivatsagmailcoms-projects.vercel.app/resume_enhance', {
                 method: 'POST',
                 body: formData,
             });
